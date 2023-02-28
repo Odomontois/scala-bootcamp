@@ -9,6 +9,7 @@ import scala.concurrent.duration.Duration
 import scala.util.Try
 
 class EffectsHomework1Spec extends AnyWordSpec with Matchers {
+  import cats.effect.unsafe.implicits.global
 
   "IO" should {
 

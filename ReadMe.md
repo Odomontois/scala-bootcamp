@@ -4,7 +4,7 @@ This repository contains information on the [Evolution Gaming](https://eng.evolu
 
 ## Schedule
 
-[2022 Q2-Q3 bootcamp schedule](Schedule.md)
+[2023 Q1-Q2 bootcamp schedule](Schedule.md)
 
 ## Preparation for the bootcamp
 
@@ -13,13 +13,15 @@ This repository contains information on the [Evolution Gaming](https://eng.evolu
 Please install recent versions of the following before the first lecture:
 - [intelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/)
 - [Scala plug-in](https://www.jetbrains.com/help/idea/discover-intellij-idea-for-scala.html) for IntelliJ IDEA
-- OpenJDK, e.g. [AdoptOpenJDK](https://adoptopenjdk.net/), [Oracle OpenJDK](https://jdk.java.net/) or [OpenJDK using homebrew](https://formulae.brew.sh/formula/openjdk) (for MacOS)
+- Java Development Kit (JD), such as OpenJDK, e.g. [AdoptOpenJDK](https://adoptopenjdk.net/)
 - [Scala](https://www.scala-lang.org/download/)
 - [SBT](https://www.scala-sbt.org/download.html)
 - [Git](https://git-scm.com/downloads)
 
 Alternatives that are also expected to work:
-- [Visual Studio Code with Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals) as an IDE
+- [Visual Studio Code](https://code.visualstudio.com/Download) with [Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals) as an IDE (to replace `IntelliJ IDEA Community Edition` and `Scala plug-in` respectively)
+- Using [homebrew](https://brew.sh/) for installing [OpenJDK](https://formulae.brew.sh/formula/openjdk) (for MacOS)
+- Using [SDKMAN!](https://sdkman.io/) for installing the JDK
 
 ### Prepare the project
 
@@ -28,6 +30,8 @@ Alternatives that are also expected to work:
 - Open the project in IntelliJ IDEA and run tests there (right-click on `scala-bootcamp` project in the left panel and click `Run ScalaTests in ‘scala…’`)
 
 The tests will fail (for now), this is normal and expected.
+
+If the tests do not compile, this is usually because the JDK used is too old. Make sure you use a recent JDK.
 
 ### Troubleshooting
 
@@ -38,11 +42,12 @@ In case of issues:
 
 ## Learning resources
 
-All resources are listed in no particular order.
+All resources are listed in no particular order. These resources are optional and not required to complete the bootcamp.
 
 ### Books
 
 - [Essential Scala](https://underscore.io/books/essential-scala/) (free)
+- [Creative Scala](https://www.creativescala.org/) (free)
 - [Scala with Cats 2](https://www.scalawithcats.com/) (free)
 - [Functional Programming for Mortals with Scalaz](https://leanpub.com/fpmortals) (free+)
 - [Functional Programming for Mortals with Cats](https://leanpub.com/fpmortals-cats) ($15+)
@@ -50,6 +55,9 @@ All resources are listed in no particular order.
 - [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala#toc) ($25+)
 - [Practical FP in Scala: A hands-on approach](https://leanpub.com/pfp-scala) ($30+)
 - [Programming in Scala](https://booksites.artima.com/programming_in_scala_3ed) ($30+)
+- [Functional and Reactive Domain Modeling](https://www.manning.com/books/functional-and-reactive-domain-modeling) ($30+)
+- [Essential Effects](https://essentialeffects.dev/) ($35+)
+- [Functional Event-Driven Architecture](https://leanpub.com/feda) ($35+)
 - [Zionomicon](https://www.zionomicon.com/) ($70)
 
 ### Other
@@ -70,4 +78,5 @@ All resources are listed in no particular order.
 * The [2020 Q3-Q4 bootcamp](/presentations/2020-q3-q4/Schedule.md) has concluded
 * The [2021 Q1-Q2 bootcamp](/presentations/2021-q1-q2/Schedule.md) has concluded
 * The [2021 Q3-Q4 bootcamp](/presentations/2021-q3-q4/Schedule.md) has concluded
-* The [2022 Q1-Q3 bootcamp](Schedule.md) will start on 2022-03-22, applications are open at [https://scala-bootcamp.evolution.com/](https://scala-bootcamp.evolution.com/)
+* The [2022 Q1-Q3 bootcamp](/presentations/2022-q1-q3/Schedule.md) has concluded
+* The [2023 Q1-Q2 bootcamp](Schedule.md) started on 2023-01-24
